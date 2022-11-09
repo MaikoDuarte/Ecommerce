@@ -25,7 +25,7 @@ const Success = () => {
         <h2>Obrigado por comprar com a gente!</h2>
         <p className="email-msg">Verifique sua caixa de entrada de e-mail.</p>
         <p className="description">
-          If you have any questions, please email
+          Se você tiver alguma dúvida nos contate através do email:
           <a className="email" href="mkdu2017@gmail.com">
           mkdu2017@gmail.com
           </a>
