@@ -24,6 +24,7 @@ width: 100%;
 }
 .layout{
   padding: 10px;
+
 }
 
 .navbar-container{
@@ -130,7 +131,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #dcdcdc;
+  background-image: url('../public/assets/ferrari.png');
   border-radius: 15px;
   position: relative;
   height: 500px;
@@ -140,6 +141,7 @@ width: 100%;
 }
 .hero-banner-container .beats-solo{
   font-size: 20px;
+  color: white;
 }
 .hero-banner-container button{
    border-radius: 15px;
@@ -157,6 +159,7 @@ width: 100%;
 .hero-banner-container h3{
   font-size: 4rem;
   margin-top: 4px;
+  color: white;
 }
 .hero-banner-container h1{
   color: white;
@@ -212,7 +215,7 @@ text-align: end;
 }
 .footer-banner-container{
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-image: url('../public/assets/ferrari.png');
   border-radius: 15px;
   position: relative;
   height: 400px;

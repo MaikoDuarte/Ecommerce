@@ -1,6 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 import { AiOutlineShopping } from 'react-icons/ai'
+import styled from 'styled-components';
+
+const Title = styled.h1 `
+  font-size: 2rem;
+`
 
 import { Cart } from './';
 import { useStateContext} from '../context/StateContext';
@@ -11,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">Motorpart Baterias</Link>
+        <Link href="/"><Title>Loja de Baterias</Title></Link>
 
       </p>
 

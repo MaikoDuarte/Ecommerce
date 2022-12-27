@@ -1,10 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
 
+
+
+
 import { urlFor } from '../lib/client';
 
 const HeroBanner = ({ heroBanner }) => {
   return (
+    
     <div className="hero-banner-container">
       <div>
         <p className="beats-solo">{heroBanner.smallText}</p>
@@ -23,6 +27,9 @@ const HeroBanner = ({ heroBanner }) => {
         </div>
       </div>
     </div>
+
+  
+
   )
 }
 
